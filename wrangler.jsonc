@@ -13,7 +13,8 @@
   ],
   "keep_vars": true,
   "vars": {
-    "NAVS": "Blog,https://blog.ozee.cc/"
+    "NAVS": "Blog,https://blog.ozee.cc/",
+    "HEADER_INJECT": "<style>.site-navigation > ul a { text-decoration: underline; text-underline-offset: 0.22em; }</style>"
   },
   "cache": {
     "enabled": true
