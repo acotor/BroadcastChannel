@@ -12,6 +12,9 @@
     "nodejs_compat"
   ],
   "keep_vars": true,
+  "vars": {
+    "NAVS": "Blog,https://blog.ozee.cc/"
+  },
   "cache": {
     "enabled": true
   },
