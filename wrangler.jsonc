@@ -1,6 +1,10 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "broadcast-channel",
+  "name": "broadcastchannel-oz",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "t.ozee.cc", "custom_domain": true }
+  ],
   // Astro's Cloudflare adapter rewrites this to dist/server/wrangler.json after build.
   "main": "@astrojs/cloudflare/entrypoints/server",
   "compatibility_date": "2026-06-13",
