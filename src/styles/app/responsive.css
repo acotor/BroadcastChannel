@@ -5,6 +5,10 @@
       align-items: flex-start;
     }
 
+    .site-header > .title {
+      align-self: center;
+    }
+
     .site-header > .title > h1 {
       font-size: 1.2em;
     }
